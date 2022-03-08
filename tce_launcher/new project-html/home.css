@@ -1,0 +1,102 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-container1 {
+  width: 1025px;
+  height: 700px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(8, 8, 8, 0.61);
+}
+.home-container2 {
+  width: 100%;
+  height: 644px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-image {
+  width: 792px;
+  height: 292px;
+  max-width: 100%;
+  object-fit: none;
+}
+.home-text {
+  font-size: 60px;
+}
+.home-container3 {
+  width: 100%;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.home-container4 {
+  width: 100%;
+  height: 138px;
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  justify-content: center;
+}
+.home-navlink {
+  color: var(--dl-color-gray-white);
+  width: 689px;
+  height: 64px;
+  z-index: 100;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  font-weight: 600;
+  margin-left: 200px;
+  padding-top: 13px;
+  border-width: 1px;
+  margin-right: 200px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: rgba(255, 0, 4, 0.76);
+}
+.home-container5 {
+  width: 100%;
+  height: 136px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.home-button {
+  color: red;
+  width: 700px;
+  height: 72px;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1px;
+  margin-left: 200px;
+  padding-top: var(--dl-space-space-twounits);
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 200px;
+  border-radius: 10px;
+  list-style-type: circle;
+  list-style-image: none;
+  list-style-position: outside;
+}
